@@ -1,0 +1,40 @@
+Here is the original list:
+These
+are
+only
+weaver
+Teaser
+tests!
+
+Here is the basic sorted list:
+Teaser
+These
+are
+only
+tests!
+weaver
+
+Here is the alphabetically sorted list:
+are
+only
+Teaser
+tests!
+These
+weaver
+
+Here is the size sorted list:
+weaver
+tests!
+Teaser
+These
+only
+are
+
+Here is the vowel count sorted list:
+weaver
+Teaser
+These
+are
+tests!
+only
+
