@@ -1,0 +1,10 @@
+Prints initial book list:
+"The Hobbit," by [Tolkien, J.R., ]
+"Acer Dumpling," by [Doofus, Robert, ]
+"A Christmas Carol," by [Dickens, Charles, ]
+"Marley and Me," by [Remember, SomeoneIdont, ]
+"The Bluff," by [Dougan, Thomas; , Peters, Paul; , Elliot, Sam, ]
+"Acer Dumpling," by [Sagan, Carl; , Smith, Tom, ]
+"Building Java Programs," by [Reges, Stuart; , Stepp, Marty, ]
+"Java, How to Program," by [Deitel, Paul; , Deitel, Harvery, ]
+
