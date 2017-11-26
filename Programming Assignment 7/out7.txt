@@ -1,0 +1,11 @@
+Here are the ten longest families in order from longest to shortest:
+aeprs: 12: apers, apres, asper, pares, parse, pears, prase, presa, rapes, reaps, spare, spear
+aelrst: 11: alerts, alters, artels, estral, laster, ratels, salter, slater, staler, stelar, talers
+aelst: 10: least, setal, slate, stale, steal, stela, taels, tales, teals, tesla
+aceprs: 9: capers, crapes, escarp, pacers, parsec, recaps, scrape, secpar, spacer
+aeinrst: 9: anestri, antsier, nastier, ratines, retains, retinas, retsina, stainer, stearin
+aelpst: 9: palest, palets, pastel, petals, plates, pleats, septal, staple, tepals
+einrst: 9: estrin, inerts, insert, inters, niters, nitres, sinter, triens, trines
+acerst: 8: carets, cartes, caster, caters, crates, reacts, recast, traces
+aeginrs: 8: earings, erasing, gainers, reagins, regains, reginas, searing, seringa
+aelps: 8: lapse, leaps, pales, peals, pleas, salep, sepal, spale
