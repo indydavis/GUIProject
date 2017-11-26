@@ -1,0 +1,40 @@
+import java.util.Scanner;
+/* Indiana Davis, 
+* TCSS 142B - Autumn 2013
+* Assignment 1
+*/
+/** Outputs silly song lyrics on console
+*  @author Indiana Davis
+*  @version October 8, 2013
+*/
+public class Angels{
+	/** Main method, prints the lyrics on screen.
+	 *  @param args is not used, ignored.
+	 */
+	public static void main(String[] args){
+		Scanner length = new Scanner(System.in);
+		System.out.println("The triangle has three sides; A, B, and C.");
+		System.out.println("Each side has and opposite angle on the triangle;");
+		System.out.println("named alpha, beta, and gama respectively.");
+		System.out.print("Please enter the length of side A:");
+		int sideA = length.nextInt();
+		System.out.print("Please enter the length of side B:");
+		int sideB = length.nextInt();
+		System.out.print("Please enter the length of side C:");
+		int sideC = length.nextInt();
+		System.out.print("The magnitude of alpha is:");
+		double p = (Math.pow(sideB, 2) - Math.pow(sideA, 2) + Math.pow(sideC, 2) / (2 * sideB * sideC));
+		double a = Math.acos(p);
+		System.out.printf("a = %.3f", a);
+		System.out.println();
+		System.out.print("The magnitude of beta is:");
+		double j = (Math.pow(sideA, 2) - Math.pow(sideB, 2) + Math.pow(sideC, 2) / (2 * sideA * sideC));
+		double b = Math.acos(j);
+		System.out.printf("b = %.3f", b);
+		System.out.println();
+		System.out.print("The magnitude of gama is:");
+		double n = (Math.pow(sideA, 2) - Math.pow(sideC, 2) + Math.pow(sideB, 2) / (2 * sideA * sideB));
+		double c = Math.acos(n);
+		System.out.printf("c = %.3f", c);
+	}
+}

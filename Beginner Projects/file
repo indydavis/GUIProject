@@ -1,0 +1,21 @@
+/** A class that exists soley for reading as a file.
+* @author Michael Pitts
+* @version 1*/
+public class Read1 {
+/** Prints out a line of text multiple times.
+Some multi-line comments may not lead a star.
+@param args is not used.*/
+public static void main(String[] args){
+// should run 5 times
+for(int i = 0; i < 5; i++) {
+System.out.println("Text appears but may go over " +
+"multiple lines!"); // line was long
+}
+if (the_first == 0 && the_second == 0 &&
+the_third == 0 && the_fourth == 0 &&
+the_fifth == 0 && the_sixth == 0) {
+System.out.println("Text appears but may go over " +
+"multiple lines!"); // line was long
+}
+}
+}

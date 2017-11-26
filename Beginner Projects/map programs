@@ -1,0 +1,30 @@
+public int rarest(Map<String, Integer> list1){
+    Map<String, Integer> temp = new HashMap<String, Integer>();
+    Iterator<String> itr = list1.keySet().iterator();
+    Integer smallest;
+    while(itr.hasNext()){
+        String key = itr.next();
+        Integer value = list1.get(key);
+        temp.put(value, key);
+    }
+}
+
+Map<String, Integer> map = new HashMap<String, Integer>();
+    Iterator<String> itr = list.iterator();
+    while(itr.hasNext()){
+        String word = itr.next();
+        if(map.containsKey(word)){
+            int count = map.get(word);
+            map.put(word, count + 1);
+        }else{
+            map.put(word, 1);
+        }
+    }
+    Iterator<String> itr2 = map.keySet().iterator();
+    while(itr2.hasNext()){
+        if(map.get(itr2.next()) >= 3){
+            test = true;
+        }
+    }
+    return test;
+}

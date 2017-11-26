@@ -1,0 +1,11 @@
+public static void main(String[] args){
+	Stack<Integer> s = new Stack<Integer>();
+	Scanner input = new Scanner(new File("File.txt");
+	while(input.hasNextLine()){
+		line = input.nextLine();
+		s.push(line);
+	}
+	while(!s.isEmpty()){
+		System.out.println(s.pop);
+	}
+}

@@ -1,0 +1,41 @@
+public static int[] getBigger(int[] a, number){
+	int[] b = new int[a.length + number]
+	for(int i = 0;  i <= a.length - 1; i++){
+		array[i] = a[i];
+	}
+	return array;
+}
+
+public void stutter(ArrayList<String> list, int k){
+    String element = "";
+    int size = list.size() - 1;
+    if(k > 0){
+        for(int m = size; m >= 0; m--){
+            for(int h = 0; h <= k - 1; h++){
+                element = list.get(m);
+                list.remove(m);
+                list.add(0, element);
+            }
+        }
+    }else{
+        list.clear();
+    }
+}
+
+public void interleave(ArrayList<Integer> a1, ArrayList<Integer> a2){
+    int number = 0;
+    int count = 1;
+    if(a1.size() >= a2.size()){
+       for(int i = 0; i <= a2.size() - 1; i++){
+           number = a2.get(i);
+           a1.add(count, number);
+           count+= 2;
+       }
+    }else if(a2.size() > a1.size()){
+       for(int i = 0; i <= a1.size() - 1; i++){
+           number = a2.get(i);
+           a1.add(count, number);
+           count+= 2;
+       }
+    }
+}
