@@ -1,0 +1,35 @@
+Original List[unsorted]:
+Circle [Radius:  2.5] Area: 19.63
+
+Rectangle [Length: 2.5, Width: 3.0] Area: 7.50
+
+Triangle [SideA: 2.5, SideB: 3.0, SideC: 4.0] Area: 3.75
+
+Circle [Radius:  4.4] Area: 60.82
+
+Rectangle [Length: 3.0, Width: 5.0] Area: 15.00
+
+
+Copied List[sorted]:
+Triangle [SideA: 2.5, SideB: 3.0, SideC: 4.0] Area: 3.75
+
+Rectangle [Length: 2.5, Width: 3.0] Area: 7.50
+
+Rectangle [Length: 3.0, Width: 5.0] Area: 15.00
+
+Circle [Radius:  2.5] Area: 19.63
+
+Circle [Radius:  4.4] Area: 60.82
+
+
+Original List[unsorted]:
+Circle [Radius:  2.5] Area: 19.63
+
+Rectangle [Length: 2.5, Width: 3.0] Area: 7.50
+
+Triangle [SideA: 2.5, SideB: 3.0, SideC: 4.0] Area: 3.75
+
+Circle [Radius:  4.4] Area: 60.82
+
+Rectangle [Length: 3.0, Width: 5.0] Area: 15.00
+
